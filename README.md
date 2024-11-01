@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Chatbot Application with MongoDB Integration
 
@@ -85,6 +85,5 @@ cd server
 npm start
 
 
->>>>>>> bd1ee85e3868a39fe36e72750faa58d88e1cd8b7
 
 
