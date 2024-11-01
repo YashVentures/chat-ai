@@ -9,7 +9,7 @@ const App = () => {
     // Function to fetch the chatbot's response from the backend
     const fetchChatbotResponse = async (userInput) => {
         try {
-            const response = await axios.post('http://localhost:5000/api/chat', { message: userInput });
+            const response = await axios.post('https://chat-ai-vmc4-dsep492ni-yashventures-projects.vercel.app/', { message: userInput });
             console.log('Chatbot response:', response.data); // Log the response
             const botMessage = response.data.reply; // Adjust according to the response structure
             setMessages((prevMessages) => [...prevMessages, { text: botMessage, isUser: false }]);
