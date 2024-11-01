@@ -2,8 +2,9 @@
   "name": "chat-app",
   "version": "1.0.0",
   "description": "This project is a full-stack chatbot application built to interact with users via a chatbot API from Hugging Face, with conversation data saved in MongoDB. The project utilizes React on the frontend and Node.js on the backend.",
-  "main": "index.js",
+  "main": "server/server.js", 
   "scripts": {
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
